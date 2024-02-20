@@ -1,0 +1,977 @@
+{
+    "description": "Ergodox-like macros",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "x",
+                "modifiers": {
+                    "optional": "right_option"
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_option"
+                }
+            ],
+            "to_if_alone": [
+                {
+                    "sticky_modifier": {
+                        "right_option": "on"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "x",
+                "modifiers": {
+                    "mandatory": [
+                        "right_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "sticky_modifier": {
+                        "right_option": "off"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "semicolon"
+            },
+            "to": [
+                {
+                    "key_code": "x",
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": {
+                    "mandatory": [
+                         "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "x",
+                    "modifiers": "shift",
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "quote"
+            },
+            "to": [
+                {
+                    "key_code": "semicolon",
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "quote",
+                "modifiers": {
+                    "mandatory": [
+                         "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "8",
+                    "modifiers": "shift",
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "quote",
+                "modifiers": {
+                    "mandatory": [
+                         "shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "semicolon",
+                    "modifiers": "shift",
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "period",
+                "modifiers": {
+                    "mandatory": [
+                         "right_alt"
+                    ]
+              }
+            },
+            "to": [
+                {
+                    "key_code": "hyphen",
+                    "modifiers": "shift",
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ],
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow"
+                },
+                {
+                    "sticky_modifier": {
+                        "right_command": "on"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ],
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "down_arrow"
+                },
+                {
+                    "sticky_modifier": {
+                        "right_command": "on"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ],
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "up_arrow"
+                },
+                {
+                    "sticky_modifier": {
+                        "right_command": "on"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ],
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow"
+                },
+                {
+                    "sticky_modifier": {
+                        "right_command": "on"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "y",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "hyphen"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "u",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "6",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "i",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "quote"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "o",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "quote",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "p",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "4",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "open_bracket",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "backslash"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "2",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "semicolon",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "equal_sign"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "1",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "semicolon"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "n",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "2",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "m",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "7",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "comma",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "3",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "9",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "0",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "z",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_command",
+                    "modifiers": "right_alt"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "e",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "open_bracket",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "open_bracket"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "v",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "x",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "1"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "2"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "v",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "3"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "s",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "4"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "5"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "6"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "w",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "7"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "e",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "8"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "9"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "a",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "0"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "hyphen",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "comma",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "equal_sign",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "period",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "slash",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "equal_sign",
+                    "modifiers": "shift"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "3"
+            },
+            "to": [
+                {
+                    "key_code": "escape"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "4"
+            },
+            "to": [
+                {
+                    "key_code": "escape"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "7",
+                "modifiers": {
+                    "optional": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "escape"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "8",
+                "modifiers": {
+                    "optional": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "return_or_enter"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "9",
+                "modifiers": {
+                    "optional": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "delete_or_backspace"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": {
+                    "mandatory": [
+                        "right_alt"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "spacebar"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "apple_vendor_top_case_key_code": "keyboard_fn"
+            },
+            "to": [
+                {
+                    "key_code": "left_control"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_control"
+            },
+            "to": [
+                {
+                    "key_code": "left_command"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_command"
+            },
+            "to": [
+                {
+                    "key_code": "right_command"
+                }
+            ],
+            "to_if_alone": [
+                {
+                    "sticky_modifier": {
+                        "right_command": "on"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_command",
+                "modifiers": {
+                    "mandatory": [
+                        "right_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "sticky_modifier": {
+                        "right_command": "off"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_shift"
+            },
+            "to": [
+                {
+                    "key_code": "left_shift"
+                }
+            ],
+            "to_if_alone": [
+                {
+                    "sticky_modifier": {
+                        "left_shift": "on"
+                    }
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_shift",
+                "modifiers": {
+                    "mandatory": [
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "sticky_modifier": {
+                        "left_shift": "off"
+                    }
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
